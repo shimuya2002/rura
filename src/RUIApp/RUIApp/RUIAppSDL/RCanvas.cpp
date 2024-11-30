@@ -1,2 +1,25 @@
 #include "pch.h"
 #include "RCanvas.hpp"
+#include"RRect.h"
+#include"RColor.h"
+void RCanvas::draw_rect(int x, int y, int w, int h) {
+	RRect rect(x, y, w, h);
+	SDL_RenderDrawRect(this->m_pRenderer, &rect);
+}
+void RCanvas::draw_text(int size, int x, int y, const char* lpszText) {
+
+	RColor color(this->m_drawColor);
+	SDL_Surface* pSurf=TTF_RenderText_Solid(0 == size ? this->m_pSmallFont : this->m_pNormFont, lpszText, color);
+	if (nullptr != pSurf) {
+
+		SDL_Texture* pTex=SDL_CreateTextureFromSurface(this->m_pRenderer, pSurf);
+		
+		if (nullptr != pTex) {
+			RRect dst(x, y, pSurf->w, pSurf->h);
+			SDL_RenderCopy(this->m_pRenderer, pTex, nullptr, &dst);
+		
+			SDL_DestroyTexture(pTex);
+		}
+		SDL_FreeSurface(pSurf);
+	}
+}
