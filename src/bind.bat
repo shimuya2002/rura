@@ -1,1 +1,0 @@
-bindgen --output src/bindgen.rs D:\flutter_projects\rura\src\RUIApp\RUIApp\RUIAppSDL\exports.hpp -- -I "D:\Program Files\SDL2\SDL2-2.24.1\include" -I "D:\lib\SDL2_image-devel-2.6.3-VC\SDL2_image-2.6.3\include" -I "D:\lib\SDL2_ttf-2.20.2\include"

@@ -3,36 +3,36 @@
   "WorkspaceRootPath": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RCanvas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\RCanvas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RColor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\RColor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RCanvas.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\RCanvas.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RWindow.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\RWindow.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RRect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\RRect.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\RWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\RApplication.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RApplication.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\RApplication.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RFPSTimer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\RFPSTimer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\RWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\exports.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\exports.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RCanvas.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1C6F4645-E6AA-4D26-95D7-02BFE1AAEFA1}|RUIAppSDL\\RUIAppSDL.vcxproj|solutionrelative:RUIAppSDL\\RCanvas.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,111 +42,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RColor.h",
-              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RColor.h",
-              "RelativeDocumentMoniker": "RUIAppSDL\\RColor.h",
-              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RColor.h*",
-              "RelativeToolTip": "RUIAppSDL\\RColor.h*",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-30T16:02:07.442Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RCanvas.cpp",
-              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RCanvas.cpp",
-              "RelativeDocumentMoniker": "RUIAppSDL\\RCanvas.cpp",
-              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RCanvas.cpp",
-              "RelativeToolTip": "RUIAppSDL\\RCanvas.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAZAAAAAAAAAA==",
+              "Title": "pch.cpp",
+              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\pch.cpp",
+              "RelativeDocumentMoniker": "RUIAppSDL\\pch.cpp",
+              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\pch.cpp",
+              "RelativeToolTip": "RUIAppSDL\\pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-30T15:56:42.807Z",
+              "WhenOpened": "2024-11-30T16:11:56.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RRect.h",
-              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RRect.h",
-              "RelativeDocumentMoniker": "RUIAppSDL\\RRect.h",
-              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RRect.h",
-              "RelativeToolTip": "RUIAppSDL\\RRect.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-30T15:55:47.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "RApplication.hpp",
-              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RApplication.hpp",
-              "RelativeDocumentMoniker": "RUIAppSDL\\RApplication.hpp",
-              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RApplication.hpp",
-              "RelativeToolTip": "RUIAppSDL\\RApplication.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-30T15:35:00.346Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "RApplication.cpp",
               "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RApplication.cpp",
               "RelativeDocumentMoniker": "RUIAppSDL\\RApplication.cpp",
               "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RApplication.cpp",
               "RelativeToolTip": "RUIAppSDL\\RApplication.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-30T15:34:52.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T16:11:55.972Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RCanvas.hpp",
-              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RCanvas.hpp",
-              "RelativeDocumentMoniker": "RUIAppSDL\\RCanvas.hpp",
-              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RCanvas.hpp",
-              "RelativeToolTip": "RUIAppSDL\\RCanvas.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-30T15:34:40.025Z",
-              "EditorCaption": ""
+              "Title": "RFPSTimer.cpp",
+              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RFPSTimer.cpp",
+              "RelativeDocumentMoniker": "RUIAppSDL\\RFPSTimer.cpp",
+              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RFPSTimer.cpp",
+              "RelativeToolTip": "RUIAppSDL\\RFPSTimer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-30T16:11:55.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "RWindow.cpp",
               "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RWindow.cpp",
               "RelativeDocumentMoniker": "RUIAppSDL\\RWindow.cpp",
               "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RWindow.cpp",
               "RelativeToolTip": "RUIAppSDL\\RWindow.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAEwCEAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-29T18:01:57.44Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T16:11:54.429Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RWindow.hpp",
-              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RWindow.hpp",
-              "RelativeDocumentMoniker": "RUIAppSDL\\RWindow.hpp",
-              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RWindow.hpp",
-              "RelativeToolTip": "RUIAppSDL\\RWindow.hpp",
-              "ViewState": "AgIAABYAAAAAAAAAAAAUwB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "exports.hpp",
+              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\exports.hpp",
+              "RelativeDocumentMoniker": "RUIAppSDL\\exports.hpp",
+              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\exports.hpp",
+              "RelativeToolTip": "RUIAppSDL\\exports.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-29T18:01:08.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T16:11:53.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "framework.h",
+              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\framework.h",
+              "RelativeDocumentMoniker": "RUIAppSDL\\framework.h",
+              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\framework.h",
+              "RelativeToolTip": "RUIAppSDL\\framework.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-30T16:11:52.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "pch.h",
+              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\pch.h",
+              "RelativeDocumentMoniker": "RUIAppSDL\\pch.h",
+              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\pch.h",
+              "RelativeToolTip": "RUIAppSDL\\pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-30T16:11:51.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RCanvas.hpp",
+              "DocumentMoniker": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RCanvas.hpp",
+              "RelativeDocumentMoniker": "RUIAppSDL\\RCanvas.hpp",
+              "ToolTip": "D:\\flutter_projects\\rura\\src\\RUIApp\\RUIApp\\RUIAppSDL\\RCanvas.hpp",
+              "RelativeToolTip": "RUIAppSDL\\RCanvas.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-30T16:11:49.022Z"
             }
           ]
         }
