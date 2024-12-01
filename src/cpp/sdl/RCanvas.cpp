@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "RCanvas.hpp"
-#include"RRect.h"
-#include"RColor.h"
+#include"RRect.hpp"
+#include"RColor.hpp"
 void RCanvas::draw_rect(int x, int y, int w, int h) {
 	RRect rect(x, y, w, h);
 	SDL_RenderDrawRect(this->m_pRenderer, &rect);

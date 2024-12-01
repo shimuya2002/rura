@@ -17,7 +17,6 @@ RApplication::~RApplication() {
 }
 
 void RApplication::run() {
-	timeBeginPeriod(1);
 	m_isRunning = true;
 	while (m_isRunning) {
 		procEvents();
@@ -35,4 +34,7 @@ void RApplication::procEvents() {
 
 
 
+}
+void RApplication::set_main_window(RWindow* pWin) {
+		this ->m_mainWindow = pWin;
 }

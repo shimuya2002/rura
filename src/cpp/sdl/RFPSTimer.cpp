@@ -12,7 +12,7 @@ bool RFPSTimer::wait() {
 		}
 	}else if (this->m_timePerFrame > diff) {
 		SDL_Delay(this->m_timePerFrame - diff);
-		this->m_prevFrameTime = timeGetTime();
+		this->m_prevFrameTime = SDL_GetTicks();
 	}
 	else {
 		this->m_prevFrameTime = curTime;

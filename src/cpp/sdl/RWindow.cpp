@@ -1,5 +1,14 @@
 #include "pch.h"
 #include "RWindow.hpp"
+#include "config.h"
+RWindow::RWindow()
+		:m_window(nullptr),
+		m_renderer(nullptr),
+		m_onIdle(nullptr),
+		m_onPaint(nullptr),
+		m_smallFont(nullptr),
+		m_normFont(nullptr)
+	{}
 RWindow::~RWindow() {
 	this->release_font();
 	close();
@@ -15,8 +24,13 @@ void RWindow::show(int w, int h){
 	else {
 		
 	}
+
+	if(nullptr==this->m_smallFont && nullptr==this->m_normFont){
+		this->load_font("./assets/",DEF_SMALL_FONT_SIZE,DEF_NORM_FONT_SIZE);
+	}
 }
 void RWindow::close() {
+
 	if (nullptr != this->m_renderer) {
 		SDL_DestroyRenderer(this->m_renderer);
 		this->m_renderer = nullptr;
@@ -36,3 +50,19 @@ void  RWindow::onIdle() {
 	}
 	
 }
+void RWindow::load_font(const char* path, int small, int norm) {
+		this->release_font();
+		this->m_smallFont = TTF_OpenFont(path, small);
+		this->m_normFont= TTF_OpenFont(path, norm);
+}
+
+void RWindow::release_font() {
+		if (nullptr != this->m_smallFont) {
+			TTF_CloseFont(this->m_smallFont);
+			this->m_smallFont = nullptr;
+		}
+		if (nullptr != this->m_normFont) {
+			TTF_CloseFont(this->m_normFont);
+			this->m_normFont = nullptr;
+		}
+	}

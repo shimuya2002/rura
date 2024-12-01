@@ -15,14 +15,7 @@ class RUI_SDL_EXPORTS RWindow
 	LIB_TYPE(TTF_Font)* m_smallFont;
 	LIB_TYPE(TTF_Font)* m_normFont;
 public:
-	RWindow()
-		:m_window(nullptr),
-		m_renderer(nullptr),
-		m_onPaint(nullptr),
-		m_onIdle(nullptr),
-		m_smallFont(nullptr),
-		m_normFont(nullptr)
-	{}
+	RWindow();
 
 	~RWindow();
 
@@ -38,21 +31,9 @@ public:
 	void set_paint_handler(PaintHandler h) {
 		m_onPaint = h;
 	}
-	void load_font(const char* path, int small, int norm) {
-		this->release_font();
-		this->m_smallFont = TTF_OpenFont(path, small);
-	}
+	void load_font(const char* path, int small, int norm);
 
-	void release_font() {
-		if (nullptr != this->m_smallFont) {
-			TTF_CloseFont(this->m_smallFont);
-			this->m_smallFont = nullptr;
-		}
-		if (nullptr != this->m_normFont) {
-			TTF_CloseFont(this->m_normFont);
-			this->m_normFont = nullptr;
-		}
-	}
+	void release_font();
 
 };
 

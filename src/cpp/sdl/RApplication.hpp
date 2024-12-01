@@ -13,9 +13,7 @@ public:
 	void run();
 	void procEvents();
 
-	void set_main_window(RWindow* pWin) {
-		this ->m_mainWindow = pWin;
-	}
+	void set_main_window(RWindow* pWin);
 
 
 	
