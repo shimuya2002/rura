@@ -3,6 +3,11 @@
 
 bool RFPSTimer::wait() {
 	Uint32 curTime = SDL_GetTicks();
+	if(1000 <=(curTime-this->m_frameBeginCountTime)){
+		this->m_frameCount=0;
+	}else{
+		++this->m_frameCount;
+	}
 
 	Uint32 diff = curTime - this->m_prevFrameTime;
 	if (this->m_timePerFrame < diff) {

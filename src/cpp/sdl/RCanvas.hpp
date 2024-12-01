@@ -15,5 +15,8 @@ public:
 	{}
 	void draw_rect(int x, int y, int w, int h);
 	void draw_text(int size,int x, int y, const char* lpszText);
+	void set_draw_color(unsigned c){
+		this->m_drawColor=c;
+	}
 };
 

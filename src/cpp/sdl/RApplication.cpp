@@ -7,6 +7,7 @@ RApplication::RApplication()
 	SDL_Init(SDL_INIT_EVERYTHING);
 	IMG_Init(IMG_INIT_JPG | IMG_INIT_PNG | IMG_INIT_PNG);
 	TTF_Init();
+	
 }
 
 
@@ -24,15 +25,19 @@ void RApplication::run() {
 }
 void RApplication::procEvents() {
 	SDL_Event ev;
-	while (SDL_PollEvent(&ev)) {
+	SDL_PollEvent(&ev);
 		switch (ev.type) {
 		case SDL_QUIT:
 			m_isRunning = false;
 			break;
 		}
+	
+
+	if(nullptr!=this->m_mainWindow){
+		this->m_mainWindow->onIdle();
+	}else{
+		std::cout<<"A"<<std::endl;
 	}
-
-
 
 }
 void RApplication::set_main_window(RWindow* pWin) {
