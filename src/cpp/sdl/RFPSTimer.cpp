@@ -5,18 +5,21 @@ RFPSTimer::RFPSTimer()
 	:m_prevFrameTime(0),
 	 m_prevDrawTime(0),
 	 m_timePerFrame(1000/DEF_FPS_NUM),
-	 m_frameCount(0),
-     m_frameBeginCountTime(0)
+	 m_curFrameCount(0),
+     m_frameBeginCountTime(0),
+	 m_prevSecondFrameNum(0)
 {
 
 }
 bool RFPSTimer::wait() {
+
 	Uint32 curTime = SDL_GetTicks();
 	if(1000 <=(curTime-this->m_frameBeginCountTime)){
-		this->m_frameCount=0;
+		this->m_prevSecondFrameNum=this->m_curFrameCount;
+		this->m_curFrameCount=0;
 		this->m_frameBeginCountTime = curTime;
 	}else{
-		++this->m_frameCount;
+		++this->m_curFrameCount;
 	}
 
 	Uint32 diff = curTime - this->m_prevFrameTime;

@@ -55,7 +55,7 @@ void  RWindow::onIdle() {
 	}
 	canvas.set_draw_color(COLOR_WHITE);
 	char buf[16];
-	snprintf(buf,16,"%d FPS",this->m_pFPSTimer.get_cur_frame_count());
+	snprintf(buf,16,"%d FPS",this->m_pFPSTimer.get_prev_second_frame_num());
 	canvas.draw_text(0,0,0,buf);
 	SDL_RenderPresent(this->m_renderer);
 	
@@ -64,12 +64,12 @@ void RWindow::load_font(const char* path, int small, int norm) {
 		this->release_font();
 		this->m_smallFont = TTF_OpenFont(path, small);
 		if(nullptr==this->m_smallFont){
-			std::cerr<<__FILE__<<" "<<__LINE__<<":Failed to load small font.FILE_PATH="<<path<<std::endl;
+			//std::cerr<<__FILE__<<" "<<__LINE__<<":Failed to load small font.FILE_PATH="<<path<<std::endl;
 
 		}
 		this->m_normFont= TTF_OpenFont(path, norm);
 		if(nullptr==this->m_smallFont){
-			std::cerr<<__FILE__<<" "<<__LINE__<<":Failed to load norm font.FILE_PATH="<<path<<std::endl;
+			//std::cerr<<__FILE__<<" "<<__LINE__<<":Failed to load norm font.FILE_PATH="<<path<<std::endl;
 
 		}
 		

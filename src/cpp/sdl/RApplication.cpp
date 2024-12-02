@@ -30,7 +30,6 @@ void RApplication::procEvents() {
 		this->m_mainWindow->onIdle();
 	}
 	else {
-		std::cout << "A" << std::endl;
 	}
 	while (SDL_PollEvent(&ev)) {
 		switch (ev.type) {

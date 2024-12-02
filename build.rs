@@ -6,13 +6,18 @@ use std::path::PathBuf;
 
 fn main() {
     //println!("cargo:rustc-link-lib=c++");
-    if cfg!(target_os ="windows"){
+    println!("cargo::rerun-if-changed=src/cpp/sdl/dllmain.cpp");
+    println!("cargo::rerun-if-changed=src/cpp/sdl/RApplication.cpp");
+    println!("cargo::rerun-if-changed=src/cpp/sdl/RCanvas.cpp");
+    println!("cargo::rerun-if-changed=src/cpp/sdl/RFPSTimer.cpp");
+    println!("cargo::rerun-if-changed=src/cpp/sdl/RWindow.cpp");
+if cfg!(target_os="windows"){
         println!("cargo:rustc-link-search=D:/Program Files/SDL2/SDL2-2.24.1/lib/x64/");
         println!("cargo:rustc-link-search=D:/lib/SDL2_image-devel-2.6.3-VC/SDL2_image-2.6.3/lib/x64/");
         println!("cargo:rustc-link-search=D:/lib/SDL2_ttf-2.20.2/lib/x64/");
     
     }
-    if cfg!(target_os ="macos"){
+    if cfg!(target_os="macos"){
         println!("cargo:rustc-link-search=/usr/local/Cellar/sdl2/2.30.9/lib/");
         println!("cargo:rustc-link-search=/usr/local/Cellar/sdl2_image/2.8.2_2/lib/");
         println!("cargo:rustc-link-search=/usr/local/Cellar/sdl2_ttf/2.22.0/lib/");
@@ -20,7 +25,7 @@ fn main() {
     println!("cargo:rustc-link-lib=SDL2");
     println!("cargo:rustc-link-lib=SDL2_Image");
     println!("cargo:rustc-link-lib=SDL2_ttf");
-    if cfg!(target_os ="windows"){
+    if cfg!(target_os="windows"){
     cc::Build::new()
         .file("src/cpp/sdl/dllmain.cpp")
         .file("src/cpp/sdl/RApplication.cpp")
@@ -33,10 +38,11 @@ fn main() {
         .include("D:/lib/SDL2_image-devel-2.6.3-VC/SDL2_image-2.6.3/include")
         .define("_DEBUG","1")
         .define("RUIAPPSDL_EXPORTS","1")
-        .define("RUST_BUILD","1")
+        .define("ONLY_BUILD","1")
         .compile("rui_app");
     }
-    if cfg!(target_os ="macos"){
+
+    if cfg!(target_os="macos"){
     cc::Build::new()
         .file("src/cpp/sdl/dllmain.cpp")
         .file("src/cpp/sdl/RApplication.cpp")
@@ -48,6 +54,7 @@ fn main() {
         .include("/usr/local/Cellar/sdl2_ttf/2.22.0/include/SDL2")
         .include("/usr/local/Cellar/sdl2_image/2.8.2_2/include/SDL2")
         .define("_DEBUG","1")
+        .define("ONLY_BUILD","1")
         .compile("rui_app");
     }
         let bindings = bindgen::Builder::default()

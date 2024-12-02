@@ -21,11 +21,11 @@ void RCanvas::draw_text(int size, int x, int y, const char* lpszText) {
 		
 			SDL_DestroyTexture(pTex);
 		}else{
-			std::cerr<<__FILE__ << " "<<__LINE__<<":Failed to create text source texture."<<std::endl;
+		//	std::cerr<<__FILE__ << " "<<__LINE__<<":Failed to create text source texture."<<std::endl;
 
 		}
 		SDL_FreeSurface(pSurf);
 	}else{
-		std::cerr<<__FILE__ << " "<<__LINE__<<":Failed to create font render surface."<<std::endl;
+		//std::cerr<<__FILE__ << " "<<__LINE__<<":Failed to create font render surface."<<std::endl;
 	}
 }
