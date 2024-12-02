@@ -45,20 +45,19 @@ void  RWindow::onIdle() {
 	if (nullptr != this->m_onIdle) {
 		this->m_onIdle();
 	}
-	SDL_SetRenderDrawColor(this->m_renderer,COLOR_WHITE);
 	SDL_RenderClear(this->m_renderer);
 	RCanvas canvas(this->m_renderer,this->m_smallFont,this->m_normFont);
 	if (this->m_pFPSTimer.wait() && nullptr!=this->m_onPaint) {
 		this->m_onPaint(&canvas);
-		canvas.set_draw_color(COLOR_WHITE);
+		
 
 		
 	}
-
+	canvas.set_draw_color(COLOR_WHITE);
 	char buf[16];
 	snprintf(buf,16,"%d FPS",this->m_pFPSTimer.get_cur_frame_count());
-	canvas.draw_text(0,0,32,buf);
-	SDL_RenderFlush(this->m_renderer);
+	canvas.draw_text(0,0,0,buf);
+	SDL_RenderPresent(this->m_renderer);
 	
 }
 void RWindow::load_font(const char* path, int small, int norm) {

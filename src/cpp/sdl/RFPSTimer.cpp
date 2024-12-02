@@ -1,10 +1,20 @@
 #include "pch.h"
 #include "RFPSTimer.hpp"
+#include"config.h"
+RFPSTimer::RFPSTimer()
+	:m_prevFrameTime(0),
+	 m_prevDrawTime(0),
+	 m_timePerFrame(1000/DEF_FPS_NUM),
+	 m_frameCount(0),
+     m_frameBeginCountTime(0)
+{
 
+}
 bool RFPSTimer::wait() {
 	Uint32 curTime = SDL_GetTicks();
 	if(1000 <=(curTime-this->m_frameBeginCountTime)){
 		this->m_frameCount=0;
+		this->m_frameBeginCountTime = curTime;
 	}else{
 		++this->m_frameCount;
 	}

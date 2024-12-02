@@ -25,19 +25,22 @@ void RApplication::run() {
 }
 void RApplication::procEvents() {
 	SDL_Event ev;
-	SDL_PollEvent(&ev);
+
+	if (nullptr != this->m_mainWindow) {
+		this->m_mainWindow->onIdle();
+	}
+	else {
+		std::cout << "A" << std::endl;
+	}
+	while (SDL_PollEvent(&ev)) {
 		switch (ev.type) {
 		case SDL_QUIT:
 			m_isRunning = false;
-			break;
+			return;
 		}
-	
-
-	if(nullptr!=this->m_mainWindow){
-		this->m_mainWindow->onIdle();
-	}else{
-		std::cout<<"A"<<std::endl;
 	}
+
+	
 
 }
 void RApplication::set_main_window(RWindow* pWin) {

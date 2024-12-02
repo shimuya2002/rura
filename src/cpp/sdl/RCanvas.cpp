@@ -15,8 +15,9 @@ void RCanvas::draw_text(int size, int x, int y, const char* lpszText) {
 		SDL_Texture* pTex=SDL_CreateTextureFromSurface(this->m_pRenderer, pSurf);
 		
 		if (nullptr != pTex) {
-			RRect dst(x, y, pSurf->w, pSurf->h);
-			SDL_RenderCopy(this->m_pRenderer, pTex, nullptr, &dst);
+			RRect src(0, 0, pSurf->w, pSurf->h);
+			RRect dst(x, y, x+pSurf->w, y+pSurf->h);
+			SDL_RenderCopy(this->m_pRenderer, pTex, &src, &dst);
 		
 			SDL_DestroyTexture(pTex);
 		}else{

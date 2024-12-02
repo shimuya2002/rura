@@ -8,6 +8,7 @@ class RUI_SDL_EXPORTS RFPSTimer
 	int m_frameCount;
 	unsigned m_frameBeginCountTime;
 public:
+	RFPSTimer();
 	bool wait();
 	int get_cur_frame_count(){
 		return this->m_frameCount;
