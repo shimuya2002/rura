@@ -29,7 +29,9 @@ bool RFPSTimer::wait() {
 			return false;
 		}
 	}else if (this->m_timePerFrame > diff) {
-		SDL_Delay(this->m_timePerFrame - diff);
+		Uint32 sleepTime = this->m_timePerFrame - diff;
+		
+		SDL_Delay(sleepTime);
 		this->m_prevFrameTime = SDL_GetTicks();
 	}
 	else {
