@@ -36,12 +36,27 @@ void RApplication::procEvents() {
 		case SDL_QUIT:
 			m_isRunning = false;
 			return;
+			
 		}
 	}
 
 	
 
 }
+
 void RApplication::set_main_window(RWindow* pWin) {
 		this ->m_mainWindow = pWin;
+}
+const char* RApplication::get_app_dir_path(){
+	return SDL_GetBasePath();
+}
+long long int RApplication::read_text_from_file(const char* lpszFile,unsigned char* pDst){
+	SDL_RWops* pOps=SDL_RWFromFile(lpszFile,"r");
+	Sint64 fileSize=SDL_RWsize(pOps);
+	if(nullptr!=pDst){
+		memset(pDst,0,fileSize);
+		SDL_RWread(pOps,pDst,fileSize,1);
+	}
+	SDL_FreeRW(pOps);
+	return fileSize+1;
 }

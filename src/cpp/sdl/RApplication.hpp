@@ -15,8 +15,8 @@ public:
 
 	void set_main_window(RWindow* pWin);
 
-
-	
+	const char* get_app_dir_path();
+	long long int read_text_from_file(const char* lpszFile,unsigned char* pDst);
 
 };
 

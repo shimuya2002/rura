@@ -1,0 +1,24 @@
+{
+
+    "name":"Narita Top Road",
+    "costume":"The Proud Road",
+    "level":"3",
+    "level3_params":{
+        "speed":92,
+        "stamina":101,
+        "power":83,
+        "guts":91,
+        "inteli":83
+    },
+    "level5_params":{
+        "speed":112,
+        "stamina":124,
+        "power":101,
+        "guts":112,
+        "inteli":101
+    },
+    "groth":{
+        "speed":"1.2",
+        "stamina":"1.1"
+    }
+}
