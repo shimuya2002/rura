@@ -1,16 +1,17 @@
 {
 
-    "name":"Narita Top Road",
-    "costume":"The Proud Road",
-    "level":"3",
-    "level3_params":{
+    "chara_id":"",
+    "chara_name":"Narita Top Road",
+    "costume_name":"The Proud Road",
+    "level":3,
+    "cur_params":{
         "speed":92,
         "stamina":101,
         "power":83,
         "guts":91,
         "inteli":83
     },
-    "level5_params":{
+    "max_params":{
         "speed":112,
         "stamina":124,
         "power":101,
