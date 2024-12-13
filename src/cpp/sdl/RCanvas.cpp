@@ -48,3 +48,9 @@ bool RCanvas::draw_button(int x,int y,const char* lpszText){
 	}
 	return false;
 }
+int RCanvas::get_canvas_width(){
+	return m_canvasW;
+}
+int RCanvas::get_canvas_height(){
+	return m_canvasH;
+}

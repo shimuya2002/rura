@@ -2,9 +2,15 @@ mod imports;
 mod game_data;
 mod user_data;
 mod state;
+use std::sync::*;
 use imports::*;
 use std::path::*;
 use game_data::*;
+use state::*;
+static game_state:LazyLock<State>=LazyLock::new(||{State::new()});
+pub extern  "C" fn draw_frame(arg1: *mut RCanvas){
+}
+
 fn main() {
 //    println!("Hello, world!");
     unsafe{

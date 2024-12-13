@@ -49,7 +49,9 @@ void  RWindow::onIdle() {
 	RMouseState mState;
 	Uint32 mbState=SDL_GetMouseState(&mState.x,&mState.y);
 	mState.leftButtonDown=0!=(mbState & SDL_BUTTON_LMASK);
-	RCanvas canvas(this->m_renderer,this->m_smallFont,this->m_normFont,mState);
+	int winW,winH;
+	SDL_GetWindowSize(this->m_window,&winW,&winH);
+	RCanvas canvas(this->m_renderer,this->m_smallFont,this->m_normFont,mState,winW,winH);
 	if (this->m_pFPSTimer.wait() && nullptr!=this->m_onPaint) {
 		
 		this->m_onPaint(&canvas);

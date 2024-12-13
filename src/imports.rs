@@ -46,3 +46,20 @@ impl RApplication{
         }
     }
 }
+impl RCanvas{
+    pub fn draw_text_str(&mut self,size:i32,w:i32,h:i32,text:&String){
+        unsafe{
+            let c_text_str=CString::new(text.as_str()).expect("");
+            self.draw_text(size,w,h,c_text_str.as_ptr());
+
+        }
+    }
+    pub fn draw_button_str(&mut self,w:i32,h:i32,text:&String)->bool{
+        unsafe{
+            let c_text_str=CString::new(text.as_str()).expect("");
+            return self.draw_button(w,h,c_text_str.as_ptr());
+
+        }
+    
+    }
+}

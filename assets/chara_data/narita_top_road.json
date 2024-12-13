@@ -4,6 +4,7 @@
     "chara_name":"Narita Top Road",
     "costume_name":"The Proud Road",
     "level":3,
+    "rarity":"SSR",
     "cur_params":{
         "speed":92,
         "stamina":101,

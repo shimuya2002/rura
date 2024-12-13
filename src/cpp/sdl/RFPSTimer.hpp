@@ -18,5 +18,6 @@ public:
 	int get_prev_second_frame_num(){
 		return this->m_prevSecondFrameNum;
 	}
+	
 };
 

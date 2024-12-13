@@ -60,3 +60,6 @@ long long int RApplication::read_text_from_file(const char* lpszFile,unsigned ch
 	SDL_FreeRW(pOps);
 	return fileSize+1;
 }
+unsigned RApplication::get_tick_count(){
+	return SDL_GetTicks();
+}
